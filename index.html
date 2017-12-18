@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!-- stylesheet -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //stylesheet -->
+<!-- online fonts -->
+<link href="http://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<!-- //online fonts -->
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+</head>
+<body>
+<div class="agileits_main">
+<!-- header -->
+<div class="w3_agile_logo">
+	<h1 class="text-center"><a href="index.html">Yellowstone National Park</a></h1>
+</div>
+<!-- banner -->
+<div class="w3_banner">
+	<div class="container">
+		<div class="slider">
+			<div class="callbacks_container">
+			   <ul class="rslides callbacks callbacks1" id="slider4">
+					<li>	
+						<div class="banner_text_w3layouts">
+							<h3>舒适</h3>
+							<span> </span>
+							<p> Comfortable </p>
+						</div>
+					</li>
+					 <li>	
+						<div class="banner_text_w3layouts">
+							<h3>自然</h3>
+							<span> </span>
+							<p> natural </p>
+						</div>
+					</li>
+					 <li>	
+						<div class="banner_text_w3layouts">
+							<h3>休闲</h3>
+							<span> </span>
+							<p> Leisure </p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		  <script src="js/responsiveslides.min.js"></script>
+		  <script>
+			// You can also use "$(window).load(function() {"
+			$(function () {
+			  // Slideshow 4
+			  $("#slider4").responsiveSlides({
+				auto: true,
+				pager:true,
+				nav:true,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+				  $('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+				  $('.events').append("<li>after event fired.</li>");
+				}
+			  });
+		
+			});
+		 </script>
+	   </div>
+	</div>   
+</div>
+<!-- menu -->
+<nav class="navbar navbar-inverse ">
+	<div class="container">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+		</button>
+	<div class="collapse navbar-collapse top-nav w3l" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav linkEffects linkHoverEffect_11 custom-menu">
+			<li class="agile_active"><span><a href="index.html" target="_blank">home</a></span></a></li>
+			<li><span><a href="introduce.html" target="_blank">introduce</a></a></span></a></li>
+			<li><span><a href="gallery.html" target="_blank">gallery</a></a> </span></a></li>
+			<li><span><a href="Contact.html" target="_blank">Contact</a></a></span></a></li>
+		</ul>
+	</div>
+	</div>
+</nav>
+
+
+
+<!-- //Tooltip -->
+<!-- section -->
+<div class="w3layouts-section" id="blog">
+	<div class="container">   
+		<h3 class="title">summarized</h3> 
+		<p>黄石国家公园占地面积约为898317公顷，主要位于美国怀俄明州，部分位于蒙大拿州和爱达荷州。黄石公园分五个区：西北的猛犸象温泉区以石灰石台阶为主，故也称热台阶区；东北为罗斯福区，仍保留着老西部景观；中间为峡谷区，可观赏黄石大峡谷和瀑布；东南为黄石湖区，主要是湖光山色；西及西南为间歇喷泉区，遍布间歇泉、温泉、蒸气池、热水潭、泥地和喷气孔。园内设有历史古迹博物馆。.</p>
+		<a href="#myModal" class="agilebtn" data-toggle="modal" data-target="#myModal"><span>Read More</span></a>
+	</div>
+</div>
+<!-- //section --> 
+<!--team -->
+
+</body>
+</html>
